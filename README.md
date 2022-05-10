@@ -12,3 +12,10 @@ The component in question being tested is `src/components/GroupedSection.js` in 
 npm install
 npm run test
 ```
+
+## Related Information
+
+- `@vue/test-utils` version: 2.0.0-rc.21
+- `Vue` version: 3.2.33
+- `node` version: 16.15.0
+- `npm` version: 8.5.5
