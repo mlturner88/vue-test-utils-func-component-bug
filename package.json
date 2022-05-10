@@ -1,0 +1,25 @@
+{
+  "name": "vue-test-utils-func-component-bug",
+  "private": true,
+  "repository": "https://github.com/mlturner88/vue-test-utils-func-component-bug.git",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "vue": "^3.2.33"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.3.1",
+    "@vue/test-utils": "^2.0.0-rc.21",
+    "happy-dom": "^3.1.0",
+    "vite": "^2.9.8",
+    "vitest": "^0.10.5"
+  },
+  "overrides": {
+    "@vue/test-utils": "^2.0.0-rc.21"
+  }
+}
