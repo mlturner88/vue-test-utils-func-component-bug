@@ -19,6 +19,6 @@ test("should render header after props update", () => {
   });
 
   w.setProps({ header });
-  // debugging this test, the prop is not populated at all when component is rendered
+  // debugging this test, the prop is not populated at all when prop is updated
   expect(w.html()).toContain(header);
 });
